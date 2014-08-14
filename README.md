@@ -9,3 +9,5 @@ The first idea was to get applications with `yarn application -list -appStates R
 This was functional but slow and buggy since YARN may returns lines with CR/LF.
 
 This script use the Cloudera manager API to get Yarn applications, and JQ library to parse and process the Json : http://stedolan.github.io/jq/
+
+It's obviously not optimized but hey, this is quick&dirty stuff for raw administrator.
